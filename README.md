@@ -8,14 +8,6 @@ This project is a responsive technical documentation page that demonstrates key 
 - **Main Content**: The page's content is structured using semantic HTML elements. The main content is housed within the `main-doc` element, which contains multiple `section` elements, each representing a distinct topic.
 - **Sidebar Navigation**: A `nav` element, with the ID `navbar`, provides links to navigate through the different sections. Each section in the content has a corresponding link in the sidebar for easy access.
 
-### Key Sections
-1. **What is Responsive Design**: This section introduces the concept of responsive design, explaining its importance in ensuring web pages render well on various devices and screen sizes.
-2. **Flexible Layouts**: Describes how flexible layouts, using relative units like percentages, allow web pages to adapt to different screen sizes.
-3. **Media Queries**: This section discusses the use of media queries, a crucial part of responsive design, to apply different styles based on screen characteristics.
-4. **Flexible Images**: This part explains how to make images responsive, ensuring they scale properly across different devices and screen sizes.
-5. **Best Practices**: Provides guidelines for creating effective responsive designs, including the mobile-first approach and optimizing images for performance.
-6. **References**: A list of useful resources on responsive design, including links to external documentation and tutorials.
-
 ### Design & Layout
 - The page is designed using a **grid layout** with two main areas: a sidebar (`dashboard-sidebar`) and a main content area (`dashboard-main`).
 - The sidebar is fixed on the left side of the screen and contains links to each section of the page, allowing for quick navigation.

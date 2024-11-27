@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Technical Documentation Page" />
+    <script src="https://kit.fontawesome.com/8d61045429.js" crossorigin="anonymous"></script>
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="dashboard-header">
+      <h1>Responsive Design</h1>
+    </header>
+
+    <aside class="dashboard-sidebar">
+      <nav id="navbar">
+        <header class="topics">TOPICS</header>
+        <ul>
+          <a href="#what_is_responsive_design" class="nav-link"><li>What is Responsive Design</li></a>
+          <a href="#flexible_layouts" class="nav-link"><li>Flexible Layouts</li></a>
+          <a href="#media_queries" class="nav-link"><li>Media Queries</li></a>
+          <a href="#flexible_images" class="nav-link"><li>Flexible Images</li></a>
+          <a href="#best_practices" class="nav-link"><li>Best Practices</li></a>
+          <a href="#references" class="nav-link"><li>References</li></a>
+        </ul>
+      </nav>
+    </aside>
+
+    <main id="main-doc" class="dashboard-main">
+      <section class="main-section" id="what_is_responsive_design">
+        <header class="title">What is Responsive Design</header>
+        <p>Responsive design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes.</p>
+        <p>It aims to ensure that users have a good viewing experience on any device, be it a desktop, tablet, or smartphone.</p>
+        <p>The goal is to create web pages that detect the visitor’s screen size and orientation and change the layout accordingly.</p>
+        <code>/* Example of a simple responsive design setup */</code>
+        <p>A basic way to implement this is by using flexible grid layouts, media queries, and flexible images.</p>
+        <ul>
+          <li>Ensures consistency across different devices</li>
+          <li>Improves user experience by adjusting to the user’s device</li>
+          <li>Reduces the need for separate mobile sites</li>
+        </ul>
+     </section>
+
+     <section class="main-section" id="flexible_layouts">
+       <header class="title">Flexible Layouts</header>
+       <p>Flexible layouts use relative units, such as percentages, to define widths and heights, allowing the layout to adapt to the screen size.</p>
+        <p>Instead of fixed units like pixels, relative units help create more fluid designs.</p>
+        <code>div { width: 50%; }</code>
+        <p>Using units like <code>em</code>, <code>rem</code>, and <code>%</code> ensures proportional scaling across different screen sizes.</p> 
+        <ul>
+          <li>Uses percentages for width</li>
+          <li>Maintains readability and usability on all screen sizes</li>
+        </ul>
+     </section>
+
+    <section class="main-section" id="media_queries">
+      <header class="title">Media Queries</header>
+      <p>Media queries allow the design to apply different styles depending on the screen size or device characteristics.</p>
+        <p>They are a critical component of responsive design and are used to apply conditional CSS rules.</p>
+        <code>@media (max-width: 768px) { ... }</code>
+        <p>Media queries help developers create breakpoints where the design adapts to changes in screen size.</p>
+        <ul>
+          <li>Helps target specific screen sizes</li>
+          <li>Ensures the design stays consistent on different devices</li>
+        </ul>
+    </section>
+
+    <section id="flexible_images" class="main-section">
+      <header class="title">Flexible Images</header> 
+      <p>Flexible images are images that scale with the size of the containing element.</p>
+      <p>To make an image responsive, you can use CSS properties such as <code>max-width: 100%;</code> and <code>height: auto;</code>.</p>
+        <code>img { max-width: 100%; height: auto; }</code>
+      <p>This ensures that images do not overflow their container and stay proportionally scaled.</p>
+        <ul>
+         <li>Prevents images from breaking layouts</li>
+          <li>Maintains aspect ratio while resizing</li>
+        </ul>
+    </section>
+
+    <section class="main-section" id="best_practices">
+      <header class="title">Best Practices</header> 
+       <p>Responsive design is more effective when following some best practices:</p>
+        <p>Start with a mobile-first approach and progressively enhance for larger screens.</p>
+        <p>Test your designs on different devices to ensure consistency and functionality.</p>
+        <ul>
+          <li>Use media queries wisely</li>
+          <li>Optimize images for faster loading</li>
+          <li>Ensure touch-friendly design elements for smaller devices</li>
+        </ul>
+        <code>/* Example: Adjusting font size for different devices */</code>
+        <p>Using scalable units such as <code>vw</code> (viewport width) and <code>vh</code> (viewport height) can enhance responsiveness.</p>
+    </section>
+
+    <section class="main-section" id="references">
+      <header class="title">References</header> 
+      <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design">MDN Web Docs - Responsive Design</a></li>
+          <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks - A Complete Guide to Flexbox</a></li>
+          <li><a href="https://www.w3schools.com/css/css_rwd_intro.asp">W3Schools - Responsive Web Design</a></li>
+        </ul>
+    </section>
+    </main>
+
+    <footer class="dashboard-footer">
+      <p><i>Certification Project: Technical Documentation Page | Patricia Stroka Ceballos - &copy freeCodeCamp</i></p>
+    </footer>
+  </body>
+    
+</html>
